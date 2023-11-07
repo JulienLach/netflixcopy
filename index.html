@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
@@ -15,15 +14,57 @@
 </head>
 
 <body>
-    <section class="container">
+    <nav class="navbar">
+        <div class="container">
 
+            <div class="logo">
+                <a href="index.html"></a>
+                <img src="img/logo.png" alt="logo">
+            </div>
+
+            <div class="main-menu">
+                <ul>
+                    <li>
+                        <a href="#" class="btn">
+                            <button class="btn btn-primary">Français</button>
+                        </a>
+                        <a href="#" class="btn">
+                            <button class="btn btn-secondary">S'identifier</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container container-sm">
+            <div class="hero-content">
+                <h1 class="hero-heading text-xxl text-center">
+                    Des séries culte, des films incontournables et tellement plus dès 5,99 €.
+                </h1>
+                <p class="text-md text-center">
+                    Abonnez-vous aujourd'hui. Annulez à tout moment.
+                </p>
+                <p class="text-md text-center">
+                    Prêt à regarder Netflix ? Saisissez votre adresse e-mail pour vous abonner ou réactiver votre
+                    abonnement.
+                </p>
+            </div>
+            <div class="hero-form">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Adresse e-mail" required>
+                <button type="submit">Commencer ></button>
+            </div>
+            <div class="bandeau">
+                <img src="img/popcorn.png" alt="popcorn">
+                <h3 class="text-md">Le Netflix que vous aimez pour juste 5,99 €.</h3>
+                <p class="text-sm">Choisissez l'offre Standard avec pub.</p>
+                <a href="#" class="link">En savoir plus ></a>
+            </div>
+        </div>
     </section>
 
-
-
-
-    <h1>Des séries culte, des films incontournables et tellement plus dès 5,99 €.
-    </h1>
 </body>
 
 </html>

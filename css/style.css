@@ -1,24 +1,94 @@
+/* Sélecteurs globaux */
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background: #000;
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.9)), url(../img/background.jpg) no-repeat, #000;
+    background-size: cover;
+    background-position: center;
+}
+
+.container .bandeau {
+    display: flex;
+    height: 150px;
+    background: radial-gradient(120.35% 220% at 49.86% -6.29%, #e50914 0%, #0e1b4f 46.15%, #0d1121 100%);
+}
+
+a {
+    color: #448ef4;
+    ;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* NAVBAR */
+
+.navbar {
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .main-menu {
+    display: flex;
+}
+
+.logo {
+    max-width: 18%;
 }
 
 
+/* Background image */
+
+.hero .container {
+    height: 400px;
+}
 
 
+/*hero section*/
 
-
-
-
-
-
-
-
+.bandeau img {
+    height: 100px;
+}
 
 
 
 /*Utility classes*/
 
 
+.text-md {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 20px 0 10px;
+}
+
+.text-sm {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: normal;
+    margin: 10px 0 5px;
+}
+
+.text-center {
+    text-align: center;
+}
