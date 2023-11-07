@@ -36,7 +36,7 @@ img {
 /* NAVBAR */
 
 .navbar {
-    padding: 20px 50px;
+    padding: 20px 140px;
     margin-bottom: 80px;
 }
 
@@ -199,11 +199,6 @@ input {
 
 @media (max-width: 670px) {
 
-    .bandeau .container .bandeau {
-        display: flex;
-        flex-direction: column;
-        height: 250px;
-    }
 
     .container .hero-form {
         display: flex;
@@ -216,4 +211,16 @@ input {
         max-width: 25%;
     }
 
+    .container .bandeau {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        height: 320px;
+        text-align: center;
+    }
+
+    .container .bandeau .popcorn {
+        padding-top: 30px;
+        display: flex;
+    }
 }
