@@ -16,7 +16,6 @@
 <body>
     <nav class="navbar">
         <div class="container">
-
             <div class="logo">
                 <a href="index.html"></a>
                 <img src="img/logo.png" alt="logo">
@@ -43,24 +42,36 @@
                 <h1 class="hero-heading text-xxl text-center">
                     Des séries culte, des films incontournables et tellement plus dès 5,99 €.
                 </h1>
-                <p class="text-md text-center">
+                <p class="text-sm text-center">
                     Abonnez-vous aujourd'hui. Annulez à tout moment.
                 </p>
-                <p class="text-md text-center">
+                <p class="text-sm text-center">
                     Prêt à regarder Netflix ? Saisissez votre adresse e-mail pour vous abonner ou réactiver votre
                     abonnement.
                 </p>
             </div>
-            <div class="hero-form">
-                <label for="email"></label>
-                <input type="email" id="email" name="email" placeholder="Adresse e-mail" required>
-                <button type="submit">Commencer ></button>
+            <div class="form">
+                <form class="hero-form">
+                    <label for="email"></label>
+                    <input id="email" name="email" placeholder="Adresse e-mail"></input>
+                    <button type="submit">Commencer ></button>
+                </form>
             </div>
+        </div>
+    </section>
+
+    <!--Bandeau section-->
+    <section class="bandeau">
+        <div class="container">
             <div class="bandeau">
-                <img src="img/popcorn.png" alt="popcorn">
-                <h3 class="text-md">Le Netflix que vous aimez pour juste 5,99 €.</h3>
-                <p class="text-sm">Choisissez l'offre Standard avec pub.</p>
-                <a href="#" class="link">En savoir plus ></a>
+                <div class="popcorn">
+                    <img src="img/popcorn.png" alt="popcorn">
+                </div>
+                <div class="bandeau-content">
+                    <h3 class="text-md">Le Netflix que vous aimez pour juste 5,99 €.</h3>
+                    <p class="text-sm">Choisissez l'offre Standard avec pub.</p>
+                    <a href="#" class="link">En savoir plus ></a>
+                </div>
             </div>
         </div>
     </section>

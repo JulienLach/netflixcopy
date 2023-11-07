@@ -11,20 +11,23 @@ body {
     overflow-x: hidden;
     background: #000;
     color: #fff;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.9)), url(../img/background.jpg) no-repeat, #000;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.397)), linear-gradient(to bottom, rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.452)), url(../img/background.jpg) no-repeat, #000;
     background-size: cover;
     background-position: center;
 }
 
 .container .bandeau {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     height: 150px;
-    background: radial-gradient(120.35% 220% at 49.86% -6.29%, #e50914 0%, #0e1b4f 46.15%, #0d1121 100%);
+    background: radial-gradient(120.35% 220% at 49.86% -6.29%, #a8161d 0%, #091133 46.15%, #040c2c 100%);
 }
 
-a {
+.container .bandeau a {
     color: #448ef4;
-    ;
+    font-weight: bold;
 }
 
 ul {
@@ -53,7 +56,7 @@ img {
 }
 
 .logo {
-    max-width: 18%;
+    max-width: 15%;
 }
 
 
@@ -69,41 +72,6 @@ img {
 /*hero section*/
 
 
-.hero-form {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px 0px 70px 0px;
-}
-
-.bandeau img {
-    height: 100px;
-}
-
-
-
-/*Utility classes*/
-
-
-.text-md {
-    font-size: 1.2rem;
-    line-height: 1.4;
-    font-weight: normal;
-    margin: 20px 0 10px;
-}
-
-.text-sm {
-    font-size: 1rem;
-    line-height: 1.4;
-    font-weight: normal;
-    margin: 10px 0 5px;
-}
-
-.text-center {
-    text-align: center;
-}
-
-
 /*Buttons*/
 
 .btn .btn-black {
@@ -114,7 +82,7 @@ img {
     border: 1px solid rgb(121, 107, 107);
     border-radius: 5px;
     color: #fff;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 20px 5px 20px;
 }
 
 .btn .btn-red {
@@ -126,5 +94,69 @@ img {
     color: #fff;
     border-radius: 5px;
     border: none;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 15px;
+}
+
+input {
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background-color: #0000008a;
+    border: 1px solid rgb(121, 107, 107);
+    border-radius: 5px;
+    color: #fff;
+    padding: 13px;
+}
+
+.hero-form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0px 70px 0px;
+}
+
+.hero-form button {
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 25px;
+}
+
+.bandeau img {
+    height: 80px;
+}
+
+
+
+/*Utility classes*/
+
+
+.text-xxl {
+    font-size: 2rem;
+    line-height: 1.4;
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+.text-md {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+.text-sm {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: normal;
+    margin: 10px 0 5px;
+}
+
+.text-center {
+    text-align: center;
 }
