@@ -36,7 +36,7 @@ img {
 /* NAVBAR */
 
 .navbar {
-    padding: 20px 140px;
+    padding: 20px 90px;
     margin-bottom: 80px;
 }
 
@@ -207,10 +207,6 @@ input {
         justify-content: center;
     }
 
-    .logo {
-        max-width: 25%;
-    }
-
     .container .bandeau {
         display: flex;
         flex-direction: column;
@@ -223,4 +219,16 @@ input {
         padding-top: 30px;
         display: flex;
     }
+
+    .navbar .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar .container .logo {
+        max-width: fit-content;
+    }
+
 }
